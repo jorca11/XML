@@ -44,3 +44,25 @@ Només un dels elements pot aparèixer
   * `?`: L'element es pot repetir 0 o 1 vegada
 
 Les repeteicions es poden agrupar en sub-llistes
+
+# Atributs
+
+Els atributs son una parella de nom_atribut i valor. En el DTD s'epecifica un atribut per a un determinat element amb un `<!ATTLIST>`. També el tipus d'atribut, però el seu contingut *no* es pot limitar massa. Aquesta falta d'especificació dels valors acceptats pels atrtibuts fa que els DTDs siguin fàcils però menys potents. La tecnologia XSD serà mès adequada per a esquemes més detallats.
+
+Sintaxis d'un atribut:
+```dtd
+<!ATTLIST nom_element nom_atribut tipus valor_per_defecte>
+```
+
+* Tipus d'atributs:
+  * CDATA
+  * ID
+  * IDREF
+  * ENTITY
+  * ENTITIES
+  * NMTOKEN
+  * NMTOKENS
+
+* Valor per defecte
+  * #REQUIRED
+  * #
