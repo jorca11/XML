@@ -14,13 +14,4 @@ XML.
 La informació emmagatemada en format XML segueix una estructura d'**arbre**.
 
 # Etiquetes, Elements i Atributs
-
-# Gramàtica i Lèxic
-
-El document XML a part d'estar regit per una estructura, aquesta ha de seguir unes regles gramàtiques i està composat d'un lèxic específic. 
-
-## DTD
-
-## XSD
-
 # Resum
