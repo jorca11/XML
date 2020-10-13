@@ -55,14 +55,15 @@ Sintaxis d'un atribut:
 ```
 
 * Tipus d'atributs:
-  * CDATA
-  * ID
-  * IDREF
+  * CDATA: Text amb espais
+  * ID: Un identificador
+  * IDREF: Referència a un identificador
   * ENTITY
   * ENTITIES
   * NMTOKEN
   * NMTOKENS
 
 * Valor per defecte
-  * #REQUIRED
-  * #
+  * #REQUIRED: Obligatorui
+  * #IMPLIED: Opcional
+  * #FIXED *valor* : Valor fixat amb *valor*
