@@ -4,7 +4,7 @@ Welcome to the M4.XML wiki!
   * [HTML](https://github.com/jvidal86/M4.XML/wiki/HTML)
   * [CSS]()
   * [XML]()
-  * [DTD]()
+  * [DTD](https://github.com/jvidal86/M4.XML/wiki/DTD)
   * [XSD]()
 * UF2
   * RSS
