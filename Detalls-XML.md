@@ -1,5 +1,18 @@
 # Detalls de XML
+**XML** pot ser definit com un meta llenguatge ja que pot ser utilitzat per a crear (i definir) altres llengautges com: XHTML.
 
-## Document ben format
+A continuació exposem les regles que regeixen la construcció de XML:
+
+* Un XML està escrit principalment en "text pla", ja que un dels objectius principals es la facilitat de lectura humana (en contrast amb els formats binaris que estan orientats a la lectura per programes)
+
+* Les marques estan delimitades pels símbols `<`i `>` i les corresponents variants de etiqueta d'obertura (`<tag>`, tancament(`</tag>`) i buida (`<tag/>`).
+
+* Els elements poden tenir definits atributs, que son parelles de nom d'atribut i valor (`atribut:valor`)
+
+* Els elements han de format una estructura d'arbre (aniuament dels elements), o no hi poden haver solapament d'elements.
+
+* El document XML només pot tenir una sola arrel, un sol node pare.
+
+Si es compleixen totes aquestes regles els document XML es considerarà un document **ben format**, concepte molt utilitzat alhora de **validar** amb eines informàtiques els arxius **XML** juntament amb les descripcions de tipus **DTD** o **XSD**.
 
 Un document **ben format** és aquell que compleix amb les regles bàsiques de XML.
