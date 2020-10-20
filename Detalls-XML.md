@@ -13,6 +13,7 @@ A continuació exposem les regles que regeixen la construcció de XML:
 
 * El document XML només pot tenir una sola arrel, un sol node pare.
 
+* Tots arxius XML ha de començar per una linia d'especificació, un element especial, que no forma part de l'arbre XML: `<?xml version = "1.0" encoding="UTF-8"?>`o `<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>`
 Si es compleixen totes aquestes regles els document XML es considerarà un document **ben format**, concepte molt utilitzat alhora de **validar** amb eines informàtiques els arxius **XML** juntament amb les descripcions de tipus **DTD** o **XSD**.
 
 Un document **ben format** és aquell que compleix amb les regles bàsiques de XML.
