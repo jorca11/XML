@@ -28,5 +28,5 @@ Com que amb XML definir un nou format d'arxiu, amb lexic i regles sintactiques p
 
 Les eines per definir les regles lexiques i sintàctiques més comuns son:
 
-* **[DTD]()**, senzilla però limitada, i basada en unes etiquetes que no son purament XML
+* **[DTD](https://github.com/jvidal86/M4.XML/wiki/DTD)**, senzilla però limitada, i basada en unes etiquetes que no son purament XML
 * **[XSD]()**, més completa, basada en XML
