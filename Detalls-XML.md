@@ -20,7 +20,7 @@ Si es compleixen totes aquestes regles els document XML es considerarà un docum
 Un document **ben format** és aquell que compleix amb les regles bàsiques de XML.
 
 # Següent: Exemples de XML i alguns errors comuns
-[Exemples](https://github.com/jvidal86/M4.XML/wiki/_new)
+[Exemples](https://github.com/jvidal86/M4.XML/wiki/Exemples-de-XML)
 
 # Validació de XML
 
