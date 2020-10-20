@@ -21,3 +21,12 @@ Un document **ben format** és aquell que compleix amb les regles bàsiques de X
 
 # Següent: Exemples de XML i alguns errors comuns
 [Exemples](https://github.com/jvidal86/M4.XML/wiki/_new)
+
+# Validació de XML
+
+Com que amb XML definir un nou format d'arxiu, amb lexic i regles sintactiques particulars, hem de tenir les eines per a assegurar que aqueste s es compleixin i per tant poder **validar** un XML.
+
+Les eines per definir les regles lexiques i sintàctiques més comuns son:
+
+* **[DTD]()**, senzilla però limitada, i basada en unes etiquetes que no son purament XML
+* **[XSD]()**, més completa, basada en XML
