@@ -16,7 +16,7 @@
 
 
 ## Definir Elements i Atributs
-| Tipo | declración |
+| Tipo | Declaración |
 |-|-|
 | cadena |
 | fecha |
@@ -99,9 +99,41 @@ La data s'especifica en el format `YYYY-MM-DD`
 <price>+999</price>
 <price>-999</price>
 ```
+
+* **Todos los tipos numericos**
+Name	Description
+byte	A signed 8-bit integer
+decimal	A decimal value
+int	A signed 32-bit integer
+integer	An integer value
+long	A signed 64-bit integer
+negativeInteger	An integer containing only negative values (..,-2,-1)
+nonNegativeInteger	An integer containing only non-negative values (0,1,2,..)
+nonPositiveInteger	An integer containing only non-positive values (..,-2,-1,0)
+positiveInteger	An integer containing only positive values (1,2,..)
+short	A signed 16-bit integer
+unsignedLong	An unsigned 64-bit integer
+unsignedInt	An unsigned 32-bit integer
+unsignedShort	An unsigned 16-bit integer
+unsignedByte	An unsigned 8-bit integer
+
 * **xs:boolean**
+Els valors permesos son: true, false, 1 i 0.
+
 ```xml
+<xs:attribute name="disabled" type="xs:boolean"/>
+<xs:element name="pagado" type="xs:boolean"/>
+
+<price disabled="true">999</price>
+<pagado>false</pagado>
 ```
-* **xs:hexBinary**
+
+* **xs:hexBinary** i **xs:base64Binary**
+```xml
+<xs:element name="blobsrc" type="xs:hexBinary"/>
+<xs:element name="blobsrc" type="xs:base64Binary"/>
+```
+
+* **xs:anyURI**
 ```xml
 ```
