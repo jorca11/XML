@@ -6,6 +6,10 @@
 * Permet crear nous tipus derivats de dades
 * especificat 100% en xml
 
+# Casos Pràctics
+  * Cas 1: [libros]()
+
+
 # Arrel de l'esquema
 
 ```xml
