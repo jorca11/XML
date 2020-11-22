@@ -7,7 +7,7 @@
 * especificat 100% en xml
 
 # Casos Pràctics
-  * Cas 1: [libros]()
+  * Cas 1: [libros](https://github.com/jvidal86/M4.XML/wiki/Cas-pr%C3%A0ctic-1-XSD---Libros)
 
 
 # Arrel de l'esquema
