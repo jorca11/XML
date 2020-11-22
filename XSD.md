@@ -18,24 +18,32 @@
 ## Definir Elements i Atributs
 | Tipo | Declaración |
 |-|-|
-| cadena |
-| fecha |
-| hora |
+| cadena | xs:string
+| fecha | xs:date
+| hora | xs:time
 |fecha y hora |
 | periodo de tiempo |
-| decimal |
-| entero |
-| booleano |
+| decimal | xs:decimal
+| entero | xs:int xs:integer xs:positiveInteger xs:negativeInteger xs:nonpositiveInteger ...
+| booleano | xs:boolean xs:bool
 | hexBinario |
 
+Per exemple:
 ```xml
-<xs:element name="biblioteca"/>
+<xs:element name="biblioteca" type="xs:string"/>
 
 <xs:attribute name="abierto" type="xs:boolean"/>
 ```
+Un exemple seria:
+
+```xml
+<biblioteca abierto="true">
+ Atlántida
+</biblioteca>
+```
 
 ## Elements Simples
-Podem definir 9  tipus de dades simples
+Del gran nombre de tipus de dades, aquí en mostrem 9:
 
 
 * **xs:string**
@@ -44,7 +52,7 @@ Podem definir 9  tipus de dades simples
 
 <titol>El petit princep</títol>
 ```
-
+On un xml và
 * **xs:date**
 La data s'especifica en el format `YYYY-MM-DD`
 ```xml
