@@ -31,3 +31,57 @@ Un exemple seria:
 </biblioteca>
 ```
 
+## Definir un Element amb Fills
+
+Un element que contingui *fills* es considerat un tipus complexe. Per exemple:
+
+```xml
+<adreca>
+  <carrer>C/ Diputació</carrer>
+  <numero>155</numero>
+  <pis> 1r 2a B</pis>
+  <CP>28732</CP>
+  <provincia>Girona</provincia>
+</adreca>
+```
+
+```xml
+<xs:element adreça>
+ <xs:complexType>
+  <xs:sequence>
+   <xs:element name="carrer" type="xs:string"/>
+   <xs:element name="numero" type="xs:positiveInteger"/> 
+   <xs:element name="pis" type="xs:string"/>
+   <xs:element name="CP" type="xs:positiveInteger"/>
+   <xs:element name="provincia" type="xs:string"/>
+  </xs:sequence>
+ </xs:complexType>
+</xs:element>
+```
+
+## Definir atributs per a un Element
+
+Afegir atributs a un element també es considera que es un tipus *complexe*.
+
+```xml
+<treballador categoria="tècnic"/>
+```
+```xml
+<xs:element name="treballador">
+ <xs:complexType>
+  <xs:attribute name="categoria" type="xs:string"/>
+ </xs:complexType>
+<xs:element>
+```
+
+Si a més a més l'element amb atributs té un contingut *simple*, es a dir sense fills, o element fulla, llavors
+
+```xml
+```
+
+```xml
+```
+## Tipus de Dades Simples de XSD
+
+Veure la pàgina [següent](https://github.com/jvidal86/M4.XML/wiki/Tipus-de-Dades-per-Defecte-en-XSD)
+
