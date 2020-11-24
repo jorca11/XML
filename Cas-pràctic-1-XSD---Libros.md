@@ -8,6 +8,7 @@ En este primer tutorial veremos los aspectos más bàsicos y novedosos de XSD
 * Definicion de Tipos Complejos
 * Uso de tipos bàsicos
 
+* Material: [Video](https://youtu.be/pVg9-Dz_xv4)
 # Objetivo
 
 Crear un esquema de validación en XSD para el siguiente xml.
