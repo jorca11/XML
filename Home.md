@@ -5,7 +5,7 @@ Welcome to the M4.XML wiki!
   * [CSS]()
   * [XML](https://github.com/jvidal86/M4.XML/wiki/Detalls-XML)
   * [DTD](https://github.com/jvidal86/M4.XML/wiki/DTD)
-  * [XSD]()
+  * [XSD](https://github.com/jvidal86/M4.XML/wiki/XSD)
 * UF2
   * RSS
   * XPath
